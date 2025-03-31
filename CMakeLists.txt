@@ -2,6 +2,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 # Get these files from your pico-sdk installation
+set(PICO_SDK_PATH ${CMAKE_SOURCE_DIR}/pico-sdk)
 include(${CMAKE_SOURCE_DIR}/pico_sdk_import.cmake)
 include(${CMAKE_SOURCE_DIR}/pico-lib/pico_lib_import.cmake)
 
