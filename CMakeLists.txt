@@ -2,8 +2,8 @@
 cmake_minimum_required(VERSION 3.13)
 
 # Get these files from your pico-sdk installation
-include(pico_sdk_import.cmake)
-include(pico-lib/pico_lib_import.cmake)
+include(${CMAKE_SOURCE_DIR}/pico_sdk_import.cmake)
+include(${CMAKE_SOURCE_DIR}/pico-lib/pico_lib_import.cmake)
 
 project(pico_project)
 
